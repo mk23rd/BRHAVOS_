@@ -37,7 +37,7 @@ export default function App() {
         {/* Profile Section */}
         <div className="text-center mb-8 animate-fade-in">
           <p className="text-gray-200 text-sm leading-relaxed">
-            Transforming hospitality businesses through excellence, innovation, and customer-focused solutions
+            Practical hospitality support for cafés, restaurants, guest houses, and hotels — from setup to daily operations and marketing.
           </p>
         </div>
 
