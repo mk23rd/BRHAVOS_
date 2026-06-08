@@ -1,4 +1,4 @@
-import { Phone, Mail, Globe, Instagram, ChefHat, Users, Lightbulb, Megaphone, Award, CheckCircle, Star } from 'lucide-react';
+import { Phone, Mail, Globe, Instagram, ChefHat, Users, Lightbulb, Megaphone, Award, CheckCircle, Star, Youtube, Send } from 'lucide-react';
 import { useState } from 'react';
 
 export default function App() {
@@ -90,10 +90,10 @@ export default function App() {
         </div>
 
         {/* Contact Icons */}
-        <div className="grid grid-cols-2 gap-3 mb-12 pb-8 border-b border-navy-500">
+        <div className="grid grid-cols-3 gap-2 mb-12 pb-8 border-b border-navy-500">
           <a
             href="tel:+251908232525"
-            className="flex items-center justify-center gap-2 px-4 py-3 bg-navy-600 hover:bg-navy-500 text-white rounded-lg transition-all duration-300 hover:shadow-soft group"
+            className="flex items-center justify-center gap-2 px-3 py-3 bg-navy-600 hover:bg-navy-500 text-white rounded-lg transition-all duration-300 hover:shadow-soft group"
           >
             <Phone size={18} className="text-gold-400 group-hover:scale-110 transition-transform" />
             <span className="text-xs font-medium">Call</span>
@@ -101,7 +101,7 @@ export default function App() {
 
           <a
             href="mailto:bravohssmm@gmail.com"
-            className="flex items-center justify-center gap-2 px-4 py-3 bg-navy-600 hover:bg-navy-500 text-white rounded-lg transition-all duration-300 hover:shadow-soft group"
+            className="flex items-center justify-center gap-2 px-3 py-3 bg-navy-600 hover:bg-navy-500 text-white rounded-lg transition-all duration-300 hover:shadow-soft group"
           >
             <Mail size={18} className="text-gold-400 group-hover:scale-110 transition-transform" />
             <span className="text-xs font-medium">Email</span>
@@ -111,7 +111,7 @@ export default function App() {
             href="https://bravohs.com"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-2 px-4 py-3 bg-navy-600 hover:bg-navy-500 text-white rounded-lg transition-all duration-300 hover:shadow-soft group"
+            className="flex items-center justify-center gap-2 px-3 py-3 bg-navy-600 hover:bg-navy-500 text-white rounded-lg transition-all duration-300 hover:shadow-soft group"
           >
             <Globe size={18} className="text-gold-400 group-hover:scale-110 transition-transform" />
             <span className="text-xs font-medium">Website</span>
@@ -121,10 +121,30 @@ export default function App() {
             href="https://instagram.com/bravohssmmagency"
             target="_blank"
             rel="noopener noreferrer"
-            className="flex items-center justify-center gap-2 px-4 py-3 bg-navy-600 hover:bg-navy-500 text-white rounded-lg transition-all duration-300 hover:shadow-soft group"
+            className="flex items-center justify-center gap-2 px-3 py-3 bg-navy-600 hover:bg-navy-500 text-white rounded-lg transition-all duration-300 hover:shadow-soft group"
           >
             <Instagram size={18} className="text-gold-400 group-hover:scale-110 transition-transform" />
             <span className="text-xs font-medium">Instagram</span>
+          </a>
+
+          <a
+            href="https://youtube.com/@bravohs"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-2 px-3 py-3 bg-navy-600 hover:bg-navy-500 text-white rounded-lg transition-all duration-300 hover:shadow-soft group"
+          >
+            <Youtube size={18} className="text-gold-400 group-hover:scale-110 transition-transform" />
+            <span className="text-xs font-medium">YouTube</span>
+          </a>
+
+          <a
+            href="https://t.me/bravohs"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center justify-center gap-2 px-3 py-3 bg-navy-600 hover:bg-navy-500 text-white rounded-lg transition-all duration-300 hover:shadow-soft group"
+          >
+            <Send size={18} className="text-gold-400 group-hover:scale-110 transition-transform" />
+            <span className="text-xs font-medium">Telegram</span>
           </a>
         </div>
 
@@ -367,6 +387,36 @@ export default function App() {
                     className="text-gold-300 hover:text-gold-200 transition-colors"
                   >
                     @bravohssmmagency
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <Youtube className="text-gold-400 flex-shrink-0 mt-1" size={24} />
+                <div>
+                  <p className="font-medium text-white mb-1">YouTube</p>
+                  <a
+                    href="https://youtube.com/@bravohs"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gold-300 hover:text-gold-200 transition-colors"
+                  >
+                    @BRAVOHS
+                  </a>
+                </div>
+              </div>
+
+              <div className="flex items-start gap-4">
+                <Send className="text-gold-400 flex-shrink-0 mt-1" size={24} />
+                <div>
+                  <p className="font-medium text-white mb-1">Telegram</p>
+                  <a
+                    href="https://t.me/bravohs"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gold-300 hover:text-gold-200 transition-colors"
+                  >
+                    @bravohs
                   </a>
                 </div>
               </div>
